@@ -1,0 +1,140 @@
+.outer-popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 46, 46, 0.708);
+  z-index: 100;
+  font-family: 'Alkalami', serif;
+}
+
+.outer-popup-div {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.inner-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 75%;
+  height: auto;
+  display: flex;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: 'Alkalami', serif;
+  z-index: 150;
+  box-shadow: rgba(0, 0, 0, 0.536) 0px 13px 27px -5px, rgba(0, 0, 0, 0.531) 0px 8px 16px -8px;
+}
+
+.inner-popup-3 {
+  width: 50%;
+  height: 100%;
+}
+
+.inner-popup2 {
+  display: block;
+}
+
+.inner-popup2 p {
+  background-color: rgb(239, 239, 239);
+  width: 75%;
+  padding: 8px;
+  border-radius: 8px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.inner-popup2 h4,
+p {
+  font-size: 0.9rem;
+  margin: 5px;
+}
+
+.inner-popup2 input {
+  background-color: rgb(239, 239, 239);
+  width: 75%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 0px;
+  font-size: 0.9rem;
+  margin: 5px;
+  height: 40px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.inner-popup img {
+  width: 400px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin: auto;
+}
+
+#req-button2 {
+  background-image: linear-gradient(to right, #f9b83a, #f8d32a);
+  color: black;
+  width: 180px;
+  height: 40px !important;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+  font-family: 'Alkalami', serif;
+  margin-right: 5px !important;
+  margin-left: 49%;
+  margin-top: 20px !important;
+}
+
+#req-button2:hover {
+  background: rgb(57, 56, 56);
+  color: white;
+
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.536) 0px 13px 27px -5px;
+}
+
+@media screen and (max-width: 900px) {
+  .inner-popup {
+    display: block;
+    height: auto;
+    width: 90%;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    font-size: 0.9rem;
+  }
+
+  .inner-popup img {
+    object-fit: contain;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+  }
+
+  .inner-popup-3 {
+    width: 100%;
+  }
+  .inner-popup2 input {
+    width: 95%;
+  }
+  .inner-popup2 p {
+    width: 95%;
+  }
+
+  #req-button2 {
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 25%;
+  }
+}

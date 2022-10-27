@@ -1,0 +1,155 @@
+.maintance{
+    margin-top: 90px;
+}
+
+
+.bill-table table{
+    width: 95%;
+    border-collapse: collapse;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(193, 193, 193, 0.614) 0px 2px 13px;
+}
+
+
+
+
+.bill-table table .inner-row:nth-child(even){
+    background-color: transparent;
+}
+
+
+.bill-table table th{
+    text-align: left;
+    background-color:rgb(119, 119, 119) ;
+    padding: 10px;
+    color: white;
+   
+   
+}
+
+
+.bill-table table tr{
+    position: relative;
+}
+
+
+
+.bill-table table .inner-row td{
+    height: 28px;    
+    padding: 10px;
+    font-size: 16px;
+    width:16%;
+}
+
+
+
+.popup-layer-1{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 49, 49, 0.495);
+}
+
+
+.popup-layer-2 {
+    background-color: white;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 50%;
+    padding-top: 1%;
+    padding-left: 18%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    z-index: 5000;
+}
+
+
+.popup-layer-2 input{
+    display: block;
+    margin: 10px 0px;
+    width: 60%;
+    height: 25px;
+    border:0px;
+    border-bottom: 0.1px solid black;
+    outline: 0;
+
+}
+
+
+.popup-layer-2 input[type='submit']{
+
+    border: 0;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+}
+
+
+.popup-layer-2 input[type='submit']:hover ,.edit-btn:hover ,.edit-btn-2:hover ,.edit-btn-3:hover{
+
+    background-color: white;
+    cursor: pointer;
+    color:black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+
+.edit-btn{
+    border: 0;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+
+}
+
+.edit-btn-3{
+    z-index: 5000;
+    border: 0;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top:22%;
+    
+    
+}
+
+
+.edit-btn-2{
+
+    border: 0;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    margin-left: 80%;
+
+
+}
+
+
+.unused-layer{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(129, 129, 129, 0.419);
+    z-index: 1000;
+}

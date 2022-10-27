@@ -1,0 +1,71 @@
+.back-rating {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background-image: linear-gradient(to top, #f9b83a, #f8d32a);
+}
+
+.rating2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  width: 80%;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.classInfo .inner-classinfo {
+  margin-left: 20px;
+  width: fit-content;
+  font-size: 0.7rem;
+}
+
+.comment-rating form {
+  margin-left: 30px;
+}
+
+.comment-rating form input {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.comment-rating form input:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.comment-rating textarea {
+  width: 85%;
+  height: 13%;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-bottom: 60px;
+}
+
+.star-r {
+  margin-left: 30px;
+}

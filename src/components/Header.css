@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+.nav {
+  background-color: transparent;
+  border: 0;
+  margin: 10px;
+  font-size: 18px;
+  color: black;
+  margin-left: 15px;
+}
+
+.nav::after {
+  content: '';
+  height: 2px;
+  width: 0%;
+  background-color: white;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.outer-nav-1 .nav-company {
+  position: absolute;
+  top: 5px;
+  left: 80px;
+  margin: 0;
+  color: black;
+  /* font-family: 'Titillium Web', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.nav:hover::after {
+  width: 100%;
+}
+
+.outer-nav {
+  margin-left: 250px;
+  padding: 10px;
+}
+
+.outer-nav-1 {
+  background-color: #f9b83a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  min-height: 48px;
+}
+
+#company_logo {
+  height: 55px;
+  width: 55px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+
+#ham {
+  position: fixed;
+  top: 10px;
+  left: 40%;
+  border: 0px;
+  background-color: transparent;
+  color: black;
+  width: 0px;
+}
+
+#ham:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 990px) {
+  .nav {
+    font-size: 0.8rem;
+    display: block;
+    width: 100%;
+  }
+
+  #ham {
+    width: 100%;
+  }
+
+  .outer-nav-1 {
+    width: 100%;
+  }
+
+  .outer-nav {
+    margin: 0;
+
+    height: 0;
+    overflow: hidden;
+  }
+
+  .outer-nav-2 {
+    height: 100%;
+    margin-top: 45px;
+    transition: 0.3s;
+    background-color: #f9b83a;
+    padding: 5px;
+  }
+
+  .outer-nav-3 {
+    height: 100%;
+    margin-top: 45px;
+    transition: 0.3s;
+    background-color: white;
+    padding: 5px;
+  }
+
+  #company_logo {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+  }
+
+  .outer-nav-1 .nav-company {
+    top: 1px;
+    left: 55px;
+  }
+}

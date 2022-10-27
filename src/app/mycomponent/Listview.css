@@ -1,0 +1,20 @@
+.wrapper-1 {
+  display: grid;
+  grid-template-columns: 29% 29% 29%;
+  grid-gap: 2%;
+  margin: 20px;
+  margin-bottom: 300px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1250px) {
+  .wrapper-1 {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper-1 {
+    grid-template-columns: 100%;
+  }
+}

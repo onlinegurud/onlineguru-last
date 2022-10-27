@@ -1,0 +1,163 @@
+.contactus-header {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+
+  border-bottom: 25px solid rgb(255, 191, 0);
+}
+
+.contactus-header img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin: 0;
+  height: 50%;
+}
+
+.contactus-header .inner-contactus {
+  color: white;
+  background-color: rgb(23, 23, 23);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding-left: 80px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.contactus-header .inner-contactus h2 {
+  width: 80%;
+  font-size: 1.6rem;
+  color: rgb(255, 191, 0);
+}
+
+.contactus-header .inner-contactus p {
+  width: 42%;
+  font-size: 1rem;
+  margin: 40px 0px;
+  color: white;
+}
+
+.inner-contactus .inner-2-contactus {
+  border-left: 3px solid rgb(255, 191, 0);
+}
+
+.inner-contactus .inner-2-contactus p {
+  margin: 2px 10px;
+  font-size: 18px;
+  color: rgb(172, 172, 172);
+}
+.contactus-header .layer {
+  width: 100%;
+  height: 50%;
+  background-image: linear-gradient(to bottom, #f9b83a, transparent);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.contactus-header .inner-contactus img {
+  width: 8%;
+  object-fit: contain;
+  position: absolute;
+  bottom: -20px;
+  left: 15%;
+}
+
+.Form {
+  padding: 80px;
+  border-bottom: 25px solid rgb(255, 191, 0);
+  display: flex;
+}
+
+.Form form {
+  width: 70%;
+  padding: 5%;
+}
+
+.Form img {
+  object-fit: contain;
+  width: 45%;
+  height: 45%;
+}
+
+.Form form input,
+textarea {
+  display: block;
+  margin: 20px 0px;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: 0.1px solid black;
+}
+
+.Form form input[type='submit'] {
+  color: white;
+  height: 40px;
+  background-color: rgb(23, 23, 23);
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+.Form form input[type='submit']:hover {
+  color: black;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgb(255, 191, 0);
+}
+
+.map-outer {
+  width: 100%;
+  height: 100%;
+
+  border-bottom: 25px solid rgb(255, 191, 0);
+  border-top: 10px solid rgb(23, 23, 23);
+  background-image: url('https://images.unsplash.com/photo-1524514587686-e2909d726e9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+}
+
+#map {
+  width: 70%;
+  height: 60%;
+  padding: 50px;
+  margin: auto;
+}
+
+@media screen and (max-width: 990px) {
+  .contactus-header .inner-contactus p {
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 0.6rem;
+  }
+
+  .contactus-header .inner-contactus {
+    height: 100%;
+  }
+
+  .Form {
+    display: block;
+  }
+
+  .Form img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+
+  .Form form {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .contactus-header .inner-contactus {
+    padding-left: 40px;
+  }
+
+  .contactus-header .inner-contactus h2 {
+    font-size: 1rem;
+  }
+}

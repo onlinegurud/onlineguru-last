@@ -1,0 +1,46 @@
+.footer {
+  background-color: rgb(23, 23, 23);
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 3%;
+}
+.fc-h {
+  color: #f9b83a;
+  font-weight: 500;
+  font-size: 1.5vw;
+  border-bottom: 1px solid #f9b83a;
+  width: fit-content;
+}
+.fc-b,
+.fc-b1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 1vw;
+}
+.fc-b {
+  transition: color 0.5s;
+}
+.fc-b:hover {
+  color: #f9b83a;
+  cursor: pointer;
+}
+.fc-b1 {
+  margin-bottom: 10%;
+}
+
+.footer-end {
+  margin-top: 7%;
+  border-top: 2px solid #f9b83a;
+  padding-top: 1.5%;
+  text-align: center;
+}
+.fe-txt {
+  color: white;
+  font-size: 1.1vw;
+}

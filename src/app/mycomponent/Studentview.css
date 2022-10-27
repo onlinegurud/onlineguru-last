@@ -1,0 +1,105 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap'); */
+
+.student-view {
+  margin: 20px;
+  font-family: 'Alkalami', serif;
+  margin-top: 40px;
+}
+
+.student-view h3 {
+  font-size: 22px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.student-view p {
+  font-size: 1rem;
+}
+
+.inner-student-view {
+  margin: auto;
+  width: fit-content;
+}
+
+.student-view button {
+  width: 120px;
+  height: 40px;
+  background-image: linear-gradient(to right, #f9b83a, #f8d32a);
+  border: 0.2px solid rgb(171, 171, 171);
+  border-radius: 8px;
+  font-weight: 600;
+
+  cursor: pointer;
+  margin-top: 15px;
+  font-family: 'Alkalami', serif;
+}
+
+.student-view button:hover:enabled {
+  background: rgb(57, 56, 56);
+  color: white;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+iframe {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+
+  z-index: 4000 !important;
+}
+
+.complete-btn {
+  width: 160px !important;
+  height: 40px;
+  background-color: white;
+  border: 0.5px solid rgb(171, 171, 171);
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+  cursor: pointer;
+  position: absolute;
+  top: 25px;
+  right: 50px;
+}
+
+.iicon {
+  position: absolute;
+  top: 11px;
+  left: 112px;
+  font-size: 17px;
+}
+
+.complete-btn:hover {
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-color: rgb(50, 50, 50);
+}
+
+@media screen and (max-width: 900px) {
+  iframe {
+    width: 85% !important;
+    height: 99% !important;
+    position: absolute !important;
+    left: 7.5% !important;
+    top: 0.5% !important;
+    border-radius: 0px;
+    z-index: 4000 !important;
+  }
+
+  .complete-btn {
+    width: 150px !important;
+    height: 25px;
+
+    font-size: 0.7rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .student-view button {
+    font-size: 0.7rem;
+  }
+}

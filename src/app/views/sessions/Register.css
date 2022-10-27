@@ -1,0 +1,102 @@
+.reg-btn1 {
+  width: 90%;
+  margin: auto;
+  height: 200px;
+  overflow: hidden;
+  background-color: aqua;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.reg-btn1 img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.reg-btn1 p {
+  z-index: 1000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+}
+
+.reg-btn2 {
+  width: 90%;
+  margin: auto;
+  height: 200px;
+  overflow: hidden;
+  background-color: aqua;
+  position: relative;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.reg-btn2 img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.reg-btn2 p {
+  z-index: 1000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+}
+
+.reg-outer {
+  width: 50%;
+  background-color: white;
+  height: 60%;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.reg-layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(62, 62, 62, 0.585);
+  z-index: 1000;
+}
+
+.reg-layer:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .reg-outer {
+    width: 90%;
+  }
+
+  .reg-btn2 p {
+    font-size: 15px;
+  }
+
+  .reg-btn1 p {
+    font-size: 15px;
+  }
+
+  #loginimg {
+    display: none;
+    margin: 0;
+    background-color: aqua;
+  }
+}

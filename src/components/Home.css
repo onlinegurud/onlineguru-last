@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@340&display=swap');
+.showcase {
+  height: 100vh;
+  width: 100%;
+
+  background-image: linear-gradient(to bottom, #f9b83a, #f8d32a);
+  position: relative;
+  overflow: hidden;
+}
+
+#whatsapp {
+  position: fixed;
+  right: 5px;
+  bottom: 10px;
+  background: transparent;
+  border: 0px;
+  z-index: 1000;
+  width: fit-content;
+}
+
+#whatsapp img {
+  width: 100px;
+  height: 100px;
+}
+
+#whatsapp img :hover {
+  cursor: pointer;
+}
+
+.showcase .img1 {
+  height: 50%;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+  z-index: 10;
+}
+
+.showcase .img2 {
+  transition: 0.5s;
+  width: 20%;
+  height: 50%;
+  position: absolute;
+  top: 270px;
+  left: -80px;
+  z-index: 0;
+}
+
+.showcase .layer {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, transparent, rgb(0, 0, 0));
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.showcase .layer {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, transparent, rgb(0, 0, 0));
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.showcase .company-detail {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(13%, -90%);
+  color: white;
+  font-size: 15px;
+  z-index: 30;
+
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.showcase .company-detail h1 {
+  color: rgb(37, 37, 37);
+  font-size: 80px;
+  font-family: 'Josefin Sans', sans-serif;
+
+  margin-bottom: 10px;
+}
+
+.showcase .company-detail h2 {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.about-us {
+  display: flex;
+  height: 90vh;
+  font-family: 'Josefin Sans', sans-serif;
+  border-bottom: 25px solid rgb(23, 23, 23);
+}
+.about-us3 {
+  /* background-image: linear-gradient(to right, rgb(255, 221, 2), rgb(255, 187, 0)); */
+  margin: 100px 0px;
+}
+
+.about-us5 {
+  border-top: 25px solid #f8d32a;
+  padding: 90px 0px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.about-us .para {
+  width: 60%;
+  padding: 100px;
+  padding-top: 8%;
+  padding-left: 140px;
+  border-bottom: 25px solid #f8d32a;
+}
+
+.about-us .para h2 {
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+.about-us .para h3 {
+  font-size: 45px;
+  color: rgb(255, 191, 0);
+  margin: 0;
+}
+
+.about-us .para p {
+  font-weight: 550;
+
+  font-size: 1rem;
+
+  margin: 10px 0px;
+}
+
+.about-us .para .para-1 {
+  font-weight: 1000;
+  margin-bottom: 30px;
+  font-size: 20px;
+  width: 90%;
+  color: black;
+  margin: 0px;
+}
+
+.about-us .para p:nth-child(4) {
+  width: 75%;
+  color: rgb(81, 81, 81);
+}
+
+.about-us .about-img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.abt-other {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  background-color: rgb(23, 23, 23);
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.abt-other .other {
+  padding: 100px;
+  padding-top: 95px;
+  padding-left: 145px;
+}
+
+.abt-other .other h1 {
+  border-bottom: 3px solid white;
+  width: fit-content;
+  word-spacing: 5px;
+  margin-left: 15px;
+}
+
+.abt-other .other p {
+  background-color: rgb(40, 40, 40);
+  padding: 30px;
+  width: 90%;
+  line-height: 30px;
+  color: rgb(236, 234, 234);
+}
+
+.abt-other .other h2 {
+  color: rgb(255, 191, 0);
+  font-size: 50px;
+}
+
+#hh2:hover {
+  cursor: pointer;
+  color: rgb(38, 38, 38);
+}
+
+@media screen and (max-width: 990px) {
+  .about-us {
+    display: block;
+    height: auto;
+    border-bottom: 0px;
+  }
+
+  .about-us .para {
+    width: 90%;
+    padding: 20px;
+    padding-top: 8%;
+    padding-left: 70px;
+    border-bottom: 0;
+  }
+
+  .about-us .para h2 {
+    font-size: 1.3rem;
+  }
+
+  .about-us .para h3 {
+    font-size: 1rem;
+  }
+
+  .about-us .para .para-1 {
+    font-size: 0.7rem;
+    width: 100%;
+  }
+
+  .about-us .para p:nth-child(4) {
+    width: 100%;
+    font-size: 0.6rem;
+  }
+
+  .about-us .about-img {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+  }
+
+  .abt-other {
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+
+  .abt-other .other {
+    padding: 10px;
+    padding-top: 5px;
+    padding-left: 25px;
+  }
+
+  .abt-other .other h1 {
+    margin-left: 5px;
+    font-size: 1.3rem;
+  }
+
+  .abt-other .other p {
+    padding: 10px;
+    font-size: 0.7rem;
+    line-height: 18px;
+  }
+
+  .abt-other .other h2 {
+    font-size: 1.3rem;
+  }
+
+  .showcase {
+    height: 50vh;
+  }
+
+  .showcase .company-detail {
+    top: 65%;
+    left: 45%;
+  }
+
+  .showcase .company-detail h1 {
+    font-size: 1.5rem;
+  }
+
+  .showcase .company-detail h2 {
+    font-size: 0.5rem;
+  }
+
+  .showcase .img1 {
+    height: 30%;
+    transform: translate(-98%, -50%);
+  }
+}
+
+.about-us5 .j1 {
+  text-align: center;
+}
+
+.about-us5 .j2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 100px 0px;
+}
+
+.about-us5 .j3 {
+  width: 33%;
+}
+
+.about-us5 .j4 {
+  background-color: #f8d32a;
+  width: 80px;
+  border-radius: 50%;
+  height: 80px;
+  text-align: center;
+  padding-top: 25px;
+  font-weight: 700;
+  margin: auto;
+  box-shadow: rgba(192, 192, 192, 0.556) 0px 7px 29px 0px;
+}
+
+.about-us5 .j5 {
+  text-align: center;
+  font-size: 0.7rem;
+  padding: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+.about-us5 .t6 {
+  font-weight: 1000;
+  font-size: 1.5rem;
+}
+
+.about-us5 .t7 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 990px) {
+  .about-us5 .j2 {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .about-us5 .j3 {
+    width: 90%;
+    margin: auto;
+  }
+  .about-us5 .j1 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .about-us5 .t7 {
+    width: 100%;
+    margin: auto;
+    font-size: 0.85rem;
+  }
+}
