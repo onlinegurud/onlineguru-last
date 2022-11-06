@@ -14,7 +14,7 @@ const Contactus = () => {
         <div className="company-detail">
           <h1>Get In Touch</h1>
 
-          <a href="http://localhost:3000/session/signin">
+          <a href="https://onlineguru.app/session/signin">
             <h2>If you have questions, we will be happy to answer</h2>
           </a>
 

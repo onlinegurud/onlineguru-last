@@ -184,7 +184,7 @@ const MatxCustomizer = () => {
                 <div>
                   <div className="helpText">
                     We used React context API to control layout. Check out the{' '}
-                    <Link href="http://demos.ui-lib.com/matx-react-doc/layout.html" target="_blank">
+                    <Link href="https://demos.ui-lib.com/matx-react-doc/layout.html" target="_blank">
                       Documentation
                     </Link>
                   </div>
