@@ -68,7 +68,7 @@ const Header = (props) => {
             Contact us
           </button>
         </Link>
-        <Link to="/">
+        <Link to="/session/signin">
           <button
             onClick={() => {
               if (window.innerWidth <= 990) {

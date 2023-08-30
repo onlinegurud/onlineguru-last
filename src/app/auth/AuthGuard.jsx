@@ -12,8 +12,8 @@ const AuthGuard = ({ children }) => {
   return (
     <div>
       {isAuthenticated && children}
-
-      {!isAuthenticated && <Navigate replace to="/session/signin" state={{ from: pathname }} />}
+      {console.log(isAuthenticated,"😊")}
+      {isAuthenticated && <Navigate to="/session/signin" state={{ from: pathname }} />}
     </div>
   );
 };

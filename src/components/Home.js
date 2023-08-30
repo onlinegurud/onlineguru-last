@@ -40,7 +40,7 @@ const Home = () => {
         <div className="company-detail">
           <h1>Online Guru</h1>
 
-          <a href="https://onlineguru.app/session/signin">
+          <a href="https://onlineguru.app/session/signup">
             <h2 id="hh2">BOOK YOUR CLASSES NOW!</h2>
           </a>
 
